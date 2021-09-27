@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Spirit Animal</title>
+
+    <script>
+      //alert('hello world');
+
+      var myVariable = "here is a string"; /* a string */
+      var myOtherVariable = 1; //number
+
+      //alert(x - y);
+
+      //alert( myOtherVariable + myOtherVariable);
+
+      var variableThree;
+
+      myArray = ['dog', 'cat', 'gecko', 'giraffe'];
+      //alert(myArray[2]);
+
+      /*
+      + add
+      - subtraction
+      / divide
+      * multiply
+      % modulus (remainder value after a division)
+      
+      == equal to
+      != not equal to
+      > greater than
+      < less than
+      >= greater than or equal to
+      <= less or equal too
+      && return true if both statements are equal to each other or are true
+      || return true if one statement is true
+      */
+      var x = 3;
+      var y = 4;
+      var z = 100;
+
+      function myFirstFunction() {
+        //sum = z * x - y;
+        //alert(sum);
+        document.getElementById('animalContent').innerHTML = "Woodside";
+      }
+   
+      function mySecondFunction() {
+        document.getElementById('animalContent').innerHTML = "Elmhurst";
+      }
+
+      function myThirdFunction() {
+        document.getElementById('animalContent').innerHTML = "Sunnyside";
+      }
+
+      function myFourthFunction() {
+        document.getElementById('animalContent').innerHTML = "Jackson Heights";
+      }
+
+
+
+    </script>
+
+    <style>
+    .assessBox {
+        background-color: red;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Find Your Car Parked Location</h1>
+    <p>Pick one of the locations from below to find your car</p>
+
+<button onclick="myFirstFunction()">Location 1</button>
+<button onclick="mySecondFunction()">Location 2</button>
+<button onclick="myThirdFunction()">Location 3</button>
+<button onclick="myFourthFunction()">Location 4</button>
+
+<p></p>
+<div class="assessBox" id="animalContent">Here is our assess box</div>
+
+
+
+
+
+  </body>
+
+ </html>
